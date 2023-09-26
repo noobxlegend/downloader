@@ -1,0 +1,13 @@
+<form action="/download" method="POST">
+    <label for="videoUrl">Enter YouTube Video URL:</label>
+    <input type="text" id="videoUrl" name="videoUrl" required>
+    
+    <label for="videoQuality">Select Video Quality:</label>
+    <select id="videoQuality" name="videoQuality">
+        <option value="highest">Highest Quality</option>
+        <option value="medium">Medium Quality</option>
+        <option value="lowest">Lowest Quality</option>
+    </select>
+    
+    <button type="submit">Download</button>
+</form>
